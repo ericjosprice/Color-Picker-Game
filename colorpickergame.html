@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Color Picker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="colorpickergame.css">
+    </head>
+    <body>
+        <div id="jumbotron">
+            <h2>THE GREAT</h2>
+            <h1><span id="RGB">RGB(175, 203, 2)</span></h1>
+            <h2>GUESSING GAME</h2>
+        </div>
+        <div id="control">
+            <div>
+            
+                <button id="reset">NEW COLORS</button>
+                <span id="message"></span>
+                <button id="easy">EASY</button>
+                <button class="selected" id="hard">HARD</button>
+                <span id="message"></span>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <td class="clicked"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="secondRow"> 
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <script src="colorpickergame.js" async defer></script>
+    </body>
+</html>
